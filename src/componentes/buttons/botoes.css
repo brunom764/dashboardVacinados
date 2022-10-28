@@ -1,0 +1,13 @@
+.OrganizaBotoes{
+    display: flex;
+    margin: 1.5rem auto;
+}
+
+.botoes{
+    display: block;
+    margin: 1rem ;
+}
+
+.botaoEspecial{
+    width: 20rem;
+}
