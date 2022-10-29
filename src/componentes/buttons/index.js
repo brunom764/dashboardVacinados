@@ -3,6 +3,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import './botoes.css'
 
+let grafico = 'https://i.imgur.com/LlXb5Ck.png'
 
 let clicadoColunas = ''
 let clicadoVacinas = ''
@@ -58,11 +59,14 @@ function quatroDoseTrue(){
 }
 
 function mostrarGrafico(){
-  alert(clicadoColunas)
-  alert(clicadoVacinas)
-  if( clicadoColunas === 'geral' & clicadoVacinas ==='geral'){
-    alert('oi')
+  const imagem = document.querySelector('#imagem')
+  if( clicadoColunas === 'geral' & (clicadoVacinas ==='geral'| clicadoVacinas ==='uma' | clicadoVacinas ==='duas' | clicadoVacinas ==='tres' | clicadoVacinas ==='quatro')){
+    grafico = 'https://i.imgur.com/LlXb5Ck.png'
   }
+  if( clicadoColunas === 'fabricante' & clicadoVacinas ==='geral'){
+    grafico = 'https://i.imgur.com/6C0Ko3T.png'
+  }
+  imagem.src = grafico
 }
 
 function ButtonsOne() {
@@ -71,7 +75,7 @@ function ButtonsOne() {
       <div className='OrganizaBotoes'>
           <ButtonToolbar aria-label="Toolbar with button groups">
           <ButtonGroup className="me-2 botoes" aria-label="First group">
-              <Button onClick={geralTrue}>Geral</Button> <Button onClick={sexoTrue}>Sexo</Button> <Button onClick={fabricanteTrue}>Fabricante de Vacina</Button>{' '}
+              <Button onClick={geralTrue}>Geral</Button> <Button onClick={sexoTrue}>Gênero</Button> <Button onClick={fabricanteTrue}>Fabricante de Vacina</Button>{' '}
               <Button onClick={gruposTrue}>Grupos prioritários</Button> <Button onClick={localTrue}>Local de vacinação</Button>
           </ButtonGroup>
           <ButtonGroup className="me-2 botoes" aria-label="Second group">
@@ -82,7 +86,7 @@ function ButtonsOne() {
           </ButtonGroup>
           </ButtonToolbar>
       </div>
-      <img className='imagem' alt='grafico' src='https://www.alura.com.br/artigos/assets/uploads/2018/05/image6-1.png'/>  
+      <img className='imagem' id='imagem' alt='grafico' src={grafico}/>  
     </>
   );
 }
