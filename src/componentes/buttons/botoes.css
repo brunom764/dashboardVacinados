@@ -5,9 +5,15 @@
 
 .botoes{
     display: block;
-    margin: 1rem ;
+    margin: 1rem 2rem;
 }
 
 .botaoEspecial{
     width: 20rem;
+}
+
+.imagem{
+    margin: 1rem 27.5%;
+    height: 40%;
+    width: 40%;
 }
