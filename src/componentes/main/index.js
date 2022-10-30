@@ -67,31 +67,31 @@ function mostrarGrafico(){
     grafico = 'https://i.imgur.com/6C0Ko3T.png'
   }
   if( clicadoColunas === 'fabricante' & clicadoVacinas ==='uma'){
-    grafico = ''
+    grafico = 'https://i.imgur.com/02jBIFI.png'
   }
   if( clicadoColunas === 'fabricante' & clicadoVacinas ==='duas'){
-    grafico = ''
+    grafico = 'https://i.imgur.com/TUz5ZfG.png'
   }
   if( clicadoColunas === 'fabricante' & clicadoVacinas ==='tres'){
-    grafico = ''
+    grafico = 'https://i.imgur.com/XX4ifn4.png'
   }
   if( clicadoColunas === 'fabricante' & clicadoVacinas ==='quatro'){
-    grafico = ''
+    grafico = 'https://i.imgur.com/KsWiF16.png'
   }
   if( clicadoColunas === 'sexo' & clicadoVacinas ==='geral'){
     grafico = 'https://i.imgur.com/Ge8qKcj.png'
   }
   if( clicadoColunas === 'sexo' & clicadoVacinas ==='uma'){
-    grafico = ''
+    grafico = 'https://i.imgur.com/C97Dqxs.png'
   }
   if( clicadoColunas === 'sexo' & clicadoVacinas ==='duas'){
-    grafico = ''
+    grafico = 'https://i.imgur.com/nH6Hiqg.png'
   }
   if( clicadoColunas === 'sexo' & clicadoVacinas ==='tres'){
-    grafico = ''
+    grafico = 'https://i.imgur.com/RTzZ9mZ.png'
   }
   if( clicadoColunas === 'sexo' & clicadoVacinas ==='quatro'){
-    grafico = ''
+    grafico = 'https://i.imgur.com/xLPZ8XY.png'
   }
   imagem.src = grafico
 }
@@ -102,11 +102,11 @@ function Main() {
       <div className='OrganizaBotoes'>
           <ButtonToolbar aria-label="Toolbar with button groups">
           <ButtonGroup className="me-2 botoes" aria-label="First group">
-              <Button onClick={geralTrue}>Geral</Button> <Button onClick={sexoTrue}>Gênero</Button> <Button onClick={fabricanteTrue}>Fabricante de Vacina</Button>{' '}
-              <Button onClick={gruposTrue}>Grupos prioritários</Button> <Button onClick={localTrue}>Local de vacinação</Button>
+              <Button onClick={geralTrue} className='botao'>Geral</Button> <Button onClick={sexoTrue} className='botao'>Gênero</Button> <Button onClick={fabricanteTrue} className='botao'>Fabricante de Vacina</Button>{' '}
+              <Button onClick={gruposTrue} className='botao'>Grupos prioritários</Button> <Button onClick={localTrue} className='botao'>Local de vacinação</Button>
           </ButtonGroup>
           <ButtonGroup className="me-2 botoes" aria-label="Second group">
-            <Button onClick={geralDoseTrue}>Geral</Button> <Button onClick={umaDoseTrue}>1° dose</Button> <Button onClick={duasDoseTrue}>2° dose</Button> <Button onClick={tresDoseTrue}>3°dose</Button> <Button onClick={quatroDoseTrue}>4°dose</Button>
+            <Button onClick={geralDoseTrue}>Geral</Button> <Button onClick={umaDoseTrue}>1° dose</Button> <Button onClick={duasDoseTrue}>2° dose</Button> <Button onClick={tresDoseTrue}>3°dose</Button> <Button onClick={quatroDoseTrue} className='botao'>4°dose</Button>
           </ButtonGroup>
           <ButtonGroup aria-label="Third group" className="botoes">
               <Button className="botaoEspecial" onClick={mostrarGrafico}>Mostrar gráfico</Button>
