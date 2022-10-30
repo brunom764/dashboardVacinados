@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
-import './botoes.css'
+import './main.css'
 
 let grafico = 'https://i.imgur.com/LlXb5Ck.png'
 
@@ -66,10 +66,37 @@ function mostrarGrafico(){
   if( clicadoColunas === 'fabricante' & clicadoVacinas ==='geral'){
     grafico = 'https://i.imgur.com/6C0Ko3T.png'
   }
+  if( clicadoColunas === 'fabricante' & clicadoVacinas ==='uma'){
+    grafico = ''
+  }
+  if( clicadoColunas === 'fabricante' & clicadoVacinas ==='duas'){
+    grafico = ''
+  }
+  if( clicadoColunas === 'fabricante' & clicadoVacinas ==='tres'){
+    grafico = ''
+  }
+  if( clicadoColunas === 'fabricante' & clicadoVacinas ==='quatro'){
+    grafico = ''
+  }
+  if( clicadoColunas === 'sexo' & clicadoVacinas ==='geral'){
+    grafico = ''
+  }
+  if( clicadoColunas === 'sexo' & clicadoVacinas ==='uma'){
+    grafico = ''
+  }
+  if( clicadoColunas === 'sexo' & clicadoVacinas ==='duas'){
+    grafico = ''
+  }
+  if( clicadoColunas === 'sexo' & clicadoVacinas ==='tres'){
+    grafico = ''
+  }
+  if( clicadoColunas === 'sexo' & clicadoVacinas ==='quatro'){
+    grafico = ''
+  }
   imagem.src = grafico
 }
 
-function ButtonsOne() {
+function Main() {
   return (
     <>
       <div className='OrganizaBotoes'>
@@ -91,4 +118,4 @@ function ButtonsOne() {
   );
 }
 
-export default ButtonsOne;
+export default Main;

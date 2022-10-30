@@ -1,13 +1,13 @@
 import './App.css';
-import ButtonsOne from './componentes/buttons';
 import Header from './componentes/header';
+import Main from './componentes/main';
 
 
 function App() {
   return (
     <>
       <Header/>
-      <ButtonsOne/>
+      <Main/>
     </>
   );
 }
