@@ -1,14 +1,14 @@
 # Dashboard de analise de dados de vacinados contra a covid-19 em Recife-PE
 # Teste aqui: https://dashboardvacinadosrecife.vercel.app/
-# Getting Started with Create React App
+
 Utilizou-se React js, bootstrap para o dashboard e, para a analise dos dados, python, a biblioteca pandas (preparo de dados), matplotlib (criação de gráficos e visualizações de dados em geral) e seaborn (plotagem de graficos)
 
 # Confira a analise de dados aqui: https://github.com/guilopesrbc/projetoP1
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
+# Getting Started with Create React App
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
 
 In the project directory, you can run:
