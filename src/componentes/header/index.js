@@ -4,7 +4,7 @@ function Header() {
   return (
     <Navbar bg="light" expand="lg" style={{ borderBottom:'solid 2.5px #4682B4'}}>
       <Container>
-        <Navbar.Brand href="#home" className='titulo destaquePrimeiraLetra' style={{ textAlign:'center', margin:'0rem 35rem 0rem 5rem'}}>Vacinados Recife</Navbar.Brand>
+        <Navbar.Brand href="#home" className='titulo destaquePrimeiraLetra' style={{margin:'0rem 35rem 0rem 1rem'}}>Vacinados Recife</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

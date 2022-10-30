@@ -5,19 +5,19 @@
 
 .botoes{
     display: block;
-    margin: 1rem 1.5rem;
+    margin: 1rem;
 }
 
 .botaoEspecial{
-    width: 20rem;
+    width: 15rem;
     background-color:#01223d !important;
     border: 0rem;
 }
 
 .imagem{
-    margin: 1rem 27.5%;
-    height: 40%;
-    width: 40%;
+    margin: 1rem 30.5%;
+    height: 35%;
+    width: 35%;
 }
 
 .clicado{
@@ -29,5 +29,8 @@
         margin: 1rem 2rem;
         height: 70%;
         width: 70%;
+    }
+    .botao{
+        margin-top: 0.25rem;
     }
 }
