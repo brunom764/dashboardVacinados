@@ -23,3 +23,11 @@
 .clicado{
     color:#01223d
 }
+
+@media screen and (max-width:1024px) { 
+    .imagem{
+        margin: 1rem 2rem;
+        height: 70%;
+        width: 70%;
+    }
+}
