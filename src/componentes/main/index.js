@@ -79,7 +79,7 @@ function mostrarGrafico(){
     grafico = ''
   }
   if( clicadoColunas === 'sexo' & clicadoVacinas ==='geral'){
-    grafico = ''
+    grafico = 'https://i.imgur.com/Ge8qKcj.png'
   }
   if( clicadoColunas === 'sexo' & clicadoVacinas ==='uma'){
     grafico = ''
