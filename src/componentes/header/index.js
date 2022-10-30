@@ -15,14 +15,20 @@ function Header() {
               <NavDropdown.Item href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_vacina.ipynb">
                 Analise por fabricante de vacina
               </NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_vacina.ipynb">
+                Analise por grupos prioritários
+              </NavDropdown.Item>
+              <NavDropdown.Item href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_vacina.ipynb">
+                Analise por local de vacinação
+              </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3"></NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                Analise geral
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
-        </Navbar.Collapse>
+        </Navbar.Collapse> 
       </Container>
     </Navbar>
   );
