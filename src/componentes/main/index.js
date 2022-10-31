@@ -93,6 +93,12 @@ function mostrarGrafico(){
   if( clicadoColunas === 'sexo' & clicadoVacinas ==='quatro'){
     grafico = 'https://i.imgur.com/xLPZ8XY.png'
   }
+  if( clicadoColunas === 'grupos'){
+    grafico = ''
+  }
+  if( clicadoColunas === 'local'){
+    grafico = ''
+  }
   imagem.src = grafico
 }
 
