@@ -60,10 +60,10 @@ function quatroDoseTrue(){
 
 function mostrarGrafico(){
   const imagem = document.querySelector('#imagem')
-  if( clicadoColunas === 'geral' & (clicadoVacinas ==='geral'| clicadoVacinas ==='uma' | clicadoVacinas ==='duas' | clicadoVacinas ==='tres' | clicadoVacinas ==='quatro')){
+  if( clicadoColunas === 'geral'){
     grafico = 'https://i.imgur.com/LlXb5Ck.png'
   }
-  if( clicadoColunas === 'fabricante' & clicadoVacinas ==='geral'){
+  if( clicadoColunas === 'fabricante' & (clicadoVacinas ==='geral' | clicadoVacinas === '')){
     grafico = 'https://i.imgur.com/6C0Ko3T.png'
   }
   if( clicadoColunas === 'fabricante' & clicadoVacinas ==='uma'){
@@ -78,7 +78,7 @@ function mostrarGrafico(){
   if( clicadoColunas === 'fabricante' & clicadoVacinas ==='quatro'){
     grafico = 'https://i.imgur.com/KsWiF16.png'
   }
-  if( clicadoColunas === 'sexo' & clicadoVacinas ==='geral'){
+  if( clicadoColunas === 'sexo' & (clicadoVacinas ==='geral' | clicadoVacinas === '')){
     grafico = 'https://i.imgur.com/Ge8qKcj.png'
   }
   if( clicadoColunas === 'sexo' & clicadoVacinas ==='uma'){
@@ -93,13 +93,15 @@ function mostrarGrafico(){
   if( clicadoColunas === 'sexo' & clicadoVacinas ==='quatro'){
     grafico = 'https://i.imgur.com/xLPZ8XY.png'
   }
-  if( clicadoColunas === 'grupos'){
+  if( clicadoColunas === 'grupos' & (clicadoVacinas ==='geral' | clicadoVacinas === '')){
     grafico = ''
   }
-  if( clicadoColunas === 'local'){
+  if( clicadoColunas === 'local' & (clicadoVacinas ==='geral' | clicadoVacinas === '')){
     grafico = ''
   }
   imagem.src = grafico
+  clicadoColunas = ''
+  clicadoVacinas = ''
 }
 
 function Main() {
