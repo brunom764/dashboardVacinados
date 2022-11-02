@@ -84,7 +84,7 @@ function mostrarGrafico(){
     grafico = 'https://i.imgur.com/xLPZ8XY.png'
   }
   if( clicadoColunas === 'grupos' & clicadoVacinas === ''){
-    grafico = 'https://i.imgur.com/zvDFQOC.png'
+    grafico = 'https://i.imgur.com/D4v9fwX.png'
   }
   if( clicadoColunas === 'grupos' & clicadoVacinas ==='geral'){
     grafico = 'https://i.imgur.com/46CXHHS.png'
