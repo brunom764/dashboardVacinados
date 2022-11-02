@@ -60,7 +60,7 @@ function quatroDoseTrue(){
 
 function mostrarGrafico(){
   const imagem = document.querySelector('#imagem')
-  if( clicadoColunas === 'geral'){
+  if( clicadoColunas === 'geral' | clicadoColunas === ''){
     grafico = 'https://i.imgur.com/LlXb5Ck.png'
   }
   if( clicadoColunas === 'fabricante' & (clicadoVacinas ==='geral' | clicadoVacinas === '')){
