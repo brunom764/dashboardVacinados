@@ -90,16 +90,16 @@ function mostrarGrafico(){
     grafico = 'https://i.imgur.com/46CXHHS.png'
   }
   if( clicadoColunas === 'grupos' & clicadoVacinas ==='uma'){
-    grafico = ''
+    grafico = 'https://i.imgur.com/OzY3SMD.png'
   }
   if( clicadoColunas === 'grupos' & clicadoVacinas ==='duas'){
-    grafico = ''
+    grafico = 'https://i.imgur.com/kWmrVmr.png'
   }
   if( clicadoColunas === 'grupos' & clicadoVacinas ==='tres'){
-    grafico = ''
+    grafico = 'https://i.imgur.com/zMCHle4.png'
   }
   if( clicadoColunas === 'grupos' & clicadoVacinas ==='quatro'){
-    grafico = ''
+    grafico = 'https://i.imgur.com/xEmq8ui.png'
   }
   if( clicadoColunas === 'local' & (clicadoVacinas ==='geral' | clicadoVacinas === '')){
     grafico = ''
