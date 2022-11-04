@@ -1,15 +1,14 @@
 .OrganizaBotoes{
-    display: flex;
-    margin: 1.5rem auto;
+    margin: 1.5rem 0.25rem;
 }
 
 .botoes{
     display: block;
-    margin: 1rem;
+    margin: 1rem 0.5rem;
 }
 
 .botaoEspecial{
-    width: 15rem;
+    width: 10rem;
     background-color:#01223d !important;
     border: 0rem;
 }
@@ -20,10 +19,6 @@
     width: 35%;
 }
 
-.clicado{
-    color:#01223d
-}
-
 @media screen and (max-width:1024px) { 
     .imagem{
         margin: 1rem 2rem;
@@ -32,5 +27,9 @@
     }
     .botao{
         margin-top: 0.25rem;
+    }
+    .botaoEspecial{
+        width: 13.5rem;
+        margin: 1rem 22.5%;
     }
 }
