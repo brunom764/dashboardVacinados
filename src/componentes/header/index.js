@@ -8,17 +8,17 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Sobre</Nav.Link>
-            <Nav.Link href="https://github.com/guilopesrbc/projetoP1">Veja mais</Nav.Link>
+            <Nav.Link target="_blank" href="https://github.com/guilopesrbc/projetoP1/blob/main/README.md">Sobre</Nav.Link>
+            <Nav.Link target="_blank" href="https://github.com/guilopesrbc/projetoP1">Veja mais</Nav.Link>
             <NavDropdown title="Analise" id="basic-nav-dropdown">
-              <NavDropdown.Item href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_sexo.ipynb">Analise por sexo</NavDropdown.Item>
-              <NavDropdown.Item href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_vacina.ipynb">
+              <NavDropdown.Item target="_blank" href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_sexo.ipynb">Analise por sexo</NavDropdown.Item>
+              <NavDropdown.Item target="_blank" href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_vacina.ipynb">
                 Analise por fabricante de vacina
               </NavDropdown.Item>
-              <NavDropdown.Item href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_vacina.ipynb">
+              <NavDropdown.Item target="_blank" href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_vacina.ipynb">
                 Analise por grupos prioritários
               </NavDropdown.Item>
-              <NavDropdown.Item href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_vacina.ipynb">
+              <NavDropdown.Item target="_blank" href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_vacina.ipynb">
                 Analise por local de vacinação
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3"></NavDropdown.Item>
