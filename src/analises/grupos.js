@@ -1,3 +1,4 @@
+
 const grupos = [{
     id:'0',
     analise: 'A partir do gráfico em barras percebe-se a grande variação no número de vacinas aplicadas entre as doses.',
@@ -40,9 +41,11 @@ function Grupo(){
                 <div>
                 <img src={grupos.grafico} alt={grupos.analise} className="imagem"/>
                 <p className='texto textoNegrito'>{grupos.analise}</p>
+
                 </div>
                 )})}
     </section>
     )
 }
 export default Grupo
+
