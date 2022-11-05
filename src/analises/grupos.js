@@ -1,3 +1,4 @@
+
 const grupos = [{
     id:'0',
     analise: 'A partir do gráfico em barras percebe-se a grande variação no número de vacinas aplicadas entre as doses.',
@@ -28,3 +29,23 @@ const grupos = [{
     analise: 'Analisando o gráfico, entende-se que o grupo que mais tomou vacina foi o comum.',
     grafico: 'https://i.imgur.com/D4v9fwX.png'
 }]
+
+
+
+function Grupo(){
+    return(
+    <section>
+        <h1 className='titulo'>Analise por grupos</h1>
+        {grupos.map(grupo => {
+                const id = grupos.id
+                return (
+                <div>
+                <img src={grupos.grafico} alt={grupos.titulo} className="a"/>
+                <p>{grupos.analise}</p>
+                </div>
+                )})}
+    </section>
+    )
+}
+export default Grupo
+

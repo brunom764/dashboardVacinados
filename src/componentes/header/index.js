@@ -8,7 +8,8 @@ function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link target="_blank" href="/sobre">Sobre</Nav.Link>
+          <Nav.Link href="/sobre">Sobre</Nav.Link>
+          <Nav.Link href="/galeria">Galeria</Nav.Link>
             <Nav.Link target="_blank" href="https://github.com/guilopesrbc/projetoP1">Github</Nav.Link>
             <NavDropdown title="Analise" id="basic-nav-dropdown">
               <NavDropdown.Item target="_blank" href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_sexo.ipynb">Analise por sexo</NavDropdown.Item>

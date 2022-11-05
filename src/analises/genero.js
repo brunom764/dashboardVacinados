@@ -1,4 +1,5 @@
-const generos = [{
+
+const genero = [{
     id:'0',
     analise: 'Pegando como análise todas as vacinações realizadas, incluindo 1ª, 2ª, 3ª e 4ª doses, percebe-se ligeira maioria de mulheres entre as declarações de sexo. Resultado indica maior número de mulheres na população recifense.',
     grafico: 'https://i.imgur.com/Ge8qKcj.png'
@@ -23,3 +24,21 @@ const generos = [{
     analise: 'Na 4ª dose, já se observa um cenário bem diferente, a maioria se vira para os declarados homens. Isso pode ser justificado devido a baixissíma quantidade de doses tomadas. Tornando inconclusivo a real proporção entre os sexos durante a 4ª dose.',
     grafico: 'https://i.imgur.com/xLPZ8XY.png'
 }]
+
+function Generos(){
+    return(
+    <section>
+        <h1 className='titulo'>Analise por gênero</h1>
+        {genero.map(genero => {
+                const id = genero.id
+                return (
+                <div>
+                <img src={genero.grafico} alt={genero.titulo} className="a"/>
+                <p>{genero.analise}</p>
+                </div>
+                )})}
+    </section>
+    )
+}
+export default Generos
+
