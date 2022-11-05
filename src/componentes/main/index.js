@@ -3,7 +3,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import './main.css'
 
-let grafico = 'https://i.imgur.com/LlXb5Ck.png'
+let grafico = 'https://i.imgur.com/u51B4ii.png'
 
 let clicadoColunas = ''
 let clicadoVacinas = ''
@@ -51,7 +51,7 @@ function quatroDoseTrue(){
 function mostrarGrafico(){
   const imagem = document.querySelector('#imagem')
   if( clicadoColunas === 'geral' | clicadoColunas === ''){
-    grafico = 'https://i.imgur.com/LlXb5Ck.png'
+    grafico = 'https://i.imgur.com/u51B4ii.png'
   }
   if( clicadoColunas === 'fabricante' & (clicadoVacinas ==='geral' | clicadoVacinas === '')){
     grafico = 'https://i.imgur.com/6C0Ko3T.png'
