@@ -1,3 +1,4 @@
+
 const genero = [{
     id:'0',
     analise: 'Pegando como análise todas as vacinações realizadas, incluindo 1ª, 2ª, 3ª e 4ª doses, percebe-se ligeira maioria de mulheres entre as declarações de sexo. Resultado indica maior número de mulheres na população recifense.',
@@ -40,3 +41,4 @@ function Generos(){
     )
 }
 export default Generos
+
