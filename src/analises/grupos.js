@@ -37,11 +37,11 @@ function Grupo(){
     <section>
         <h1 className='titulo'>Analise por grupos</h1>
         {grupos.map(grupos => {
-                const id = grupos.id
                 return (
                 <div>
-                <img src={grupos.grafico} alt={grupos.titulo} className="a"/>
-                <p>{grupos.analise}</p>
+                <img src={grupos.grafico} alt={grupos.analise} className="imagem"/>
+                <p className='texto textoNegrito'>{grupos.analise}</p>
+
                 </div>
                 )})}
     </section>
