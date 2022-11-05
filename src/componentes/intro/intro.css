@@ -1,0 +1,16 @@
+.intro{
+    margin-top: 2rem;
+}
+
+.zegotinha{
+    width: 40rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1024px) { 
+    .zegotinha{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+}
