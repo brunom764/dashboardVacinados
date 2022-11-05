@@ -36,7 +36,7 @@ function Grupo(){
     return(
     <section>
         <h1 className='titulo'>Analise por grupos</h1>
-        {grupos.map(grupo => {
+        {grupos.map(grupos => {
                 const id = grupos.id
                 return (
                 <div>
