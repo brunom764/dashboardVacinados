@@ -29,11 +29,10 @@ function Fabricantes(){
     <section>
         <h1 className='titulo'>Analise por fabricantes</h1>
         {fabricante.map(fabricante => {
-                const id = fabricante.id
                 return (
                 <div>
-                <img src={fabricante.grafico} alt={fabricante.titulo} className="a"/>
-                <p>{fabricante.analise}</p>
+                <img src={fabricante.grafico} alt={fabricante.analise} className="imagem"/>
+                <p className='texto textoNegrito'>{fabricante.analise}</p>
                 </div>
                 )})}
     </section>

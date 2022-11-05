@@ -1,4 +1,4 @@
-const grupo = [{
+const grupos = [{
     id:'0',
     analise: 'A partir do gráfico em barras percebe-se a grande variação no número de vacinas aplicadas entre as doses.',
     grafico: 'https://i.imgur.com/5aC42L2.png'
@@ -34,13 +34,12 @@ const grupo = [{
 function Grupo(){
     return(
     <section>
-        <h1 className='titulo'>Analise por gênero</h1>
-        {grupo.map(grupo => {
-                const id = grupo.id
+        <h1 className='titulo'>Analise por grupos</h1>
+        {grupos.map(grupos => {
                 return (
                 <div>
-                <img src={grupo.grafico} alt={grupo.titulo} className="a"/>
-                <p>{grupo.analise}</p>
+                <img src={grupos.grafico} alt={grupos.analise} className="imagem"/>
+                <p className='texto textoNegrito'>{grupos.analise}</p>
                 </div>
                 )})}
     </section>

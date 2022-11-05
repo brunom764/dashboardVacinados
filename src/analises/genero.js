@@ -29,11 +29,10 @@ function Generos(){
     <section>
         <h1 className='titulo'>Analise por gênero</h1>
         {genero.map(genero => {
-                const id = genero.id
                 return (
                 <div>
-                <img src={genero.grafico} alt={genero.titulo} className="a"/>
-                <p>{genero.analise}</p>
+                <img src={genero.grafico} alt={genero.analise} className="imagem"/>
+                <p className='texto textoNegrito'>{genero.analise}</p>
                 </div>
                 )})}
     </section>

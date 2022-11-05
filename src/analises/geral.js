@@ -9,11 +9,10 @@ function GeralAnalise(){
     <section>
         <h1 className='titulo'>Analise</h1>
         {geral.map(geral => {
-                const id = geral.id
                 return (
                 <div>
-                <img src={geral.grafico} alt={geral.titulo} className="a"/>
-                <p>{geral.analise}</p>
+                <img src={geral.grafico} alt={geral.analise} className="imagem"/>
+                <p className='texto textoNegrito'>{geral.analise}</p>
                 </div>
                 )})}
     </section>
