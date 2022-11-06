@@ -8,12 +8,12 @@ const geral = [{
 function GeralAnalise(){
     return(
     <section>
-        <h1 className='titulo'>Analise</h1>
+        <h1 className='titulo'>Analise cobertura vacinal contra a covid-19</h1>
         {geral.map(geral => {
                 return (
                 <div>
                 <img src={geral.grafico} alt={geral.analise} className="imagem"/>
-                <p className='texto textoNegrito'>{geral.analise}</p>
+                <p className='texto textoNegrito margin-bottom'>{geral.analise}</p>
                 </div>
                 )})}
     </section>

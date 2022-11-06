@@ -1,7 +1,7 @@
 import './intro.css'
 function Intro(){
     return(
-        <section className="intro">
+        <section>
             <h1 className="titulo">Sobre</h1>
             <p className="texto textoNegrito">Projeto de visualização e ánalise de dados sobre a cobertura vacinal contra a covid-19 na cidade de Recife(PE) para a disciplina de Programação I 2022.1 UFPE. Neste projeto foi utilizado a linguagem python e as seguintes bibliotecas: pandas (preparo de dados), matplotlib (criação de gráficos e visualizações de dados em geral) e seaborn (plotagem de graficos). Além do mais, para a construção do dashboard, foi utilizado a biblioteca React js.</p>
             <img className='zegotinha' alt='Ze gotinha' src='https://i.imgur.com/lpar1fK.png'/> 

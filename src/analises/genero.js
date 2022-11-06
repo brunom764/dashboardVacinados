@@ -28,12 +28,12 @@ const genero = [{
 function Generos(){
     return(
     <section>
-        <h1 className='titulo'>Analise por gênero</h1>
+        <h1 className='titulo margin-top' >Analise por gênero</h1>
         {genero.map(genero => {
                 return (
                 <div>
                 <img src={genero.grafico} alt={genero.analise} className="imagem"/>
-                <p className='texto textoNegrito'>{genero.analise}</p>
+                <p className='texto textoNegrito margin-bottom'>{genero.analise}</p>
                 </div>
                 )})}
     </section>

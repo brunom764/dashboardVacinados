@@ -28,12 +28,12 @@ const fabricante = [{
 function Fabricantes(){
     return(
     <section>
-        <h1 className='titulo'>Analise por fabricantes</h1>
+        <h1 className='titulo margin-top'>Analise por fabricantes</h1>
         {fabricante.map(fabricante => {
                 return (
                 <div>
                 <img src={fabricante.grafico} alt={fabricante.analise} className="imagem"/>
-                <p className='texto textoNegrito'>{fabricante.analise}</p>
+                <p className='texto textoNegrito margin-bottom'>{fabricante.analise}</p>
                 </div>
                 )})}
     </section>
