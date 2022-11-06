@@ -13,12 +13,6 @@
     border: 0rem;
 }
 
-.imagem{
-    margin: 1rem 30.5%;
-    height: 35%;
-    width: 35%;
-}
-
 @media screen and (max-width:1024px) { 
     .imagem{
         margin: 1rem 2rem;

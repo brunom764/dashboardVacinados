@@ -34,12 +34,12 @@ const grupos = [{
 function Grupo(){
     return(
     <section>
-        <h1 className='titulo'>Analise por grupos</h1>
+        <h1 className='titulo margin-top'>Analise por grupos</h1>
         {grupos.map(grupos => {
                 return (
                 <div>
                 <img src={grupos.grafico} alt={grupos.analise} className="imagem"/>
-                <p className='texto textoNegrito'>{grupos.analise}</p>
+                <p className='texto textoNegrito margin-bottom'>{grupos.analise}</p>
                 </div>
                 )})}
     </section>

@@ -26,6 +26,25 @@
   font-weight: bold;
 }
 
+.imagem{
+  margin: 1rem 30.5%;
+  height: 35%;
+  width: 35%;
+}
+
+.margin-bottom{
+  margin-bottom: 3rem;
+}
+
+.margin-top{
+  margin-top: 2rem;
+}
+
+.borda{
+  border-bottom: solid 2.5px #0a6dbe
+}
+
+
 ::-webkit-scrollbar {
   width: 10px;
   background-color: #1b1b1b;
