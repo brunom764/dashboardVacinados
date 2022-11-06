@@ -1,3 +1,4 @@
+
 const geral = [{
     id:'0',
     analise: 'Observa-se um dado preocupante na cobertura vacinal da população, porque há uma queda no número de doses aplicadas para a segunda dose e essa queda fica, ainda mais evidente, em comparação com a de doses aplicadas para terceira dose, pois das mais de 1.4 milhões de pessoas que tomaram a primeira dose, menos da metade tomou a terceira dose. Além disso, o gráfico apresenta a quarta dose, que tem sua aplicação em início com cerca de 1000 doses aplicadas.',
@@ -19,3 +20,4 @@ function GeralAnalise(){
     )
 }
 export default GeralAnalise
+
