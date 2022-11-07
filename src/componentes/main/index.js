@@ -102,7 +102,19 @@ function mostrarGrafico(){
     grafico = 'https://i.imgur.com/xEmq8ui.png'
   }
   if( clicadoColunas === 'local' & (clicadoVacinas ==='geral' | clicadoVacinas === '')){
-    grafico = ''
+    grafico = 'https://i.imgur.com/jr85drg.png'
+  }
+  if( clicadoColunas === 'local' & clicadoVacinas ==='uma'){
+    grafico = 'https://i.imgur.com/IjpsEml.png'
+  }
+  if( clicadoColunas === 'local' & clicadoVacinas ==='duas'){
+    grafico = 'https://i.imgur.com/pI2CuDd.png'
+  }
+  if( clicadoColunas === 'local' & clicadoVacinas ==='tres'){
+    grafico = 'https://i.imgur.com/Wr5Ldqn.png'
+  }
+  if( clicadoColunas === 'local' & clicadoVacinas ==='quatro'){
+    grafico = 'https://i.imgur.com/PTODi7Q.png'
   }
   imagem.src = grafico
   clicadoColunas = ''
