@@ -1,4 +1,5 @@
-const fabricantes = [{
+
+const fabricante = [{
     id:'0',
     analise: 'Observa-se um predomínio do uso da pfizer na cidade do Recife, uma vacina à base de mRNA para combater o vírus SARS-CoV-2 com eficácia global de 95%.',
     grafico: 'https://i.imgur.com/6C0Ko3T.png'
@@ -23,3 +24,19 @@ const fabricantes = [{
     analise: 'Na quarta dose, observamos um cenário parecido com o da terceira dose com a vacina da Pfizer sendo a mais aplicada.',
     grafico: 'https://i.imgur.com/KsWiF16.png'
 }]
+
+function Fabricantes(){
+    return(
+    <section>
+        <h1 className='titulo margin-top'>Analise por fabricantes</h1>
+        {fabricante.map(fabricante => {
+                return (
+                <div>
+                <img src={fabricante.grafico} alt={fabricante.analise} className="imagem"/>
+                <p className='texto textoNegrito margin-bottom'>{fabricante.analise}</p>
+                </div>
+                )})}
+    </section>
+    )
+}
+export default Fabricantes
