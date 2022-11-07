@@ -1,3 +1,4 @@
+
 const locais = [{
     id:'0',
     analise: 'A partir da visualização e análise do gráfico gerado é possível notar que apesar dos pontos de maior estrutura pra vacinar, a vacinação ocorreu de modo muito disperso pela cidade. Tal dado pode ser considerado normal, já que na cidade do recife existiram inúmeros pontos de vacinação o que demonstra um ponto positivo no combate ao covid.',
@@ -41,3 +42,4 @@ function Local(){
     )
 }
 export default Local
+

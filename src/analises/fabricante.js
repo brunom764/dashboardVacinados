@@ -1,3 +1,4 @@
+
 const fabricante = [{
     id:'0',
     analise: 'Observa-se um predomínio do uso da pfizer na cidade do Recife, uma vacina à base de mRNA para combater o vírus SARS-CoV-2 com eficácia global de 95%.',

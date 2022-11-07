@@ -1,3 +1,4 @@
+
 const grupos = [{
     id:'0',
     analise: 'A partir do gráfico em barras percebe-se a grande variação no número de vacinas aplicadas entre as doses.',
@@ -46,3 +47,4 @@ function Grupo(){
     )
 }
 export default Grupo
+
