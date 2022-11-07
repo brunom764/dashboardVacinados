@@ -22,7 +22,7 @@ function Header() {
               Por local de vacinação
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_doses.ipynb">
+              <NavDropdown.Item  target="_blank" href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_doses.ipynb">
               Geral
               </NavDropdown.Item>
             </NavDropdown>
