@@ -34,7 +34,7 @@ const grupos = [{
 function Grupo(){
     return(
     <section>
-        <h1 className='titulo margin-top'>Analise por grupos</h1>
+        <h1 className='titulo margin-top'>Análise por grupos</h1>
         {grupos.map(grupos => {
                 return (
                 <div>

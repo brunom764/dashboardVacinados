@@ -27,7 +27,7 @@ const fabricante = [{
 function Fabricantes(){
     return(
     <section>
-        <h1 className='titulo margin-top'>Analise por fabricantes</h1>
+        <h1 className='titulo margin-top'>Análise por fabricantes</h1>
         {fabricante.map(fabricante => {
                 return (
                 <div>
