@@ -11,7 +11,7 @@ const geral = [{
 function GeralAnalise(){
     return(
     <section>
-        <h1 className='titulo'>Analise cobertura vacinal contra a covid-19</h1>
+        <h1 className='titulo'>Análise cobertura vacinal contra a covid-19</h1>
         {geral.map(geral => {
                 return (
                 <div>

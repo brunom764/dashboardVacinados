@@ -28,7 +28,7 @@ const genero = [{
 function Generos(){
     return(
     <section>
-        <h1 className='titulo margin-top' >Analise por gênero</h1>
+        <h1 className='titulo margin-top' >Análise por gênero</h1>
         {genero.map(genero => {
                 return (
                 <div>

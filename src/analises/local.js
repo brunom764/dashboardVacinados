@@ -30,7 +30,7 @@ const locais = [{
 function Local(){
     return(
     <section>
-        <h1 className='titulo margin-top'>Analise por local de vacinação</h1>
+        <h1 className='titulo margin-top'>Análise por local de vacinação</h1>
         {locais.map(local => {
                 return (
                 <div>
