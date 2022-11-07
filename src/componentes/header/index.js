@@ -10,16 +10,15 @@ function Header() {
           <Nav className="me-auto">
           <Nav.Link href="/sobre">Sobre</Nav.Link>
           <Nav.Link href="/galeria">Galeria</Nav.Link>
-            <Nav.Link target="_blank" href="https://github.com/guilopesrbc/projetoP1">Github</Nav.Link>
             <NavDropdown title="Analise" id="basic-nav-dropdown">
               <NavDropdown.Item target="_blank" href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_sexo.ipynb">Analise por sexo</NavDropdown.Item>
               <NavDropdown.Item target="_blank" href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_vacina.ipynb">
                 Analise por fabricante de vacina
               </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_vacina.ipynb">
+              <NavDropdown.Item target="_blank" href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_grupos.ipynb">
                 Analise por grupos prioritários
               </NavDropdown.Item>
-              <NavDropdown.Item target="_blank" href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_vacina.ipynb">
+              <NavDropdown.Item target="_blank" href="https://github.com/guilopesrbc/projetoP1/blob/main/analise_locais.ipynb">
                 Analise por local de vacinação
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3"></NavDropdown.Item>
