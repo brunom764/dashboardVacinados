@@ -1,7 +1,7 @@
 # Dashboard de analise de dados de vacinados contra a covid-19 em Recife-PE
 # Teste aqui: https://dashboardvacinadosrecife.vercel.app/
 
-Utilizou-se React js, bootstrap para o dashboard e, para a analise dos dados, python, a biblioteca pandas (preparo de dados), matplotlib (criação de gráficos e visualizações de dados em geral) e seaborn (plotagem de graficos)
+Utilizou-se React js, bootstrap para o dashboard e, para a analise dos dados, python, a biblioteca pandas (preparo de dados), matplotlib (criação de gráficos e visualizações de dados em geral) e seaborn (plotagem de graficos).
 
 # Confira a análise de dados aqui: https://github.com/guilopesrbc/projetoP1
 
