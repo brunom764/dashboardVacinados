@@ -4,7 +4,7 @@ function Header() {
   return (
     <Navbar bg="light" className='margin-bottom borda' expand="lg">
       <Container>
-        <Navbar.Brand href="/" className='titulo destaquePrimeiraLetra' style={{margin:'0rem 35rem 0rem 1rem'}}>Vacinados Recife</Navbar.Brand>
+        <Navbar.Brand href="/" className='titulo destaquePrimeiraLetra' style={{margin:'0rem 80vh 0rem 1rem'}}>Vacinados Recife</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
